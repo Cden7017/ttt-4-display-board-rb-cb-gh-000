@@ -13,5 +13,6 @@ end
 
 display_board(board)
 board[1][1] = "X"
-
-
+display_board(board)
+board[0][0] = "O"
+display_board(board)
